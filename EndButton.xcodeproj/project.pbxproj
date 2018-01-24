@@ -14,6 +14,7 @@
 		76EC4B402018B0E600E943EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EC4B3F2018B0E600E943EB /* Assets.xcassets */; };
 		76EC4B432018B0E600E943EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EC4B412018B0E600E943EB /* LaunchScreen.storyboard */; };
 		76EC4B462018B0E600E943EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EC4B452018B0E600E943EB /* main.m */; };
+		76EC4B4F2018B0FD00E943EB /* LPEndButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EC4B4E2018B0FD00E943EB /* LPEndButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		76EC4B422018B0E600E943EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76EC4B442018B0E600E943EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76EC4B452018B0E600E943EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76EC4B4D2018B0FD00E943EB /* LPEndButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPEndButton.h; sourceTree = "<group>"; };
+		76EC4B4E2018B0FD00E943EB /* LPEndButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPEndButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		76EC4B322018B0E600E943EB /* EndButton */ = {
 			isa = PBXGroup;
 			children = (
+				76EC4B4C2018B0FD00E943EB /* MDEndButton */,
 				76EC4B332018B0E600E943EB /* AppDelegate.h */,
 				76EC4B342018B0E600E943EB /* AppDelegate.m */,
 				76EC4B362018B0E600E943EB /* ViewController.h */,
@@ -73,6 +77,15 @@
 			);
 			path = EndButton;
 			sourceTree = "<group>";
+		};
+		76EC4B4C2018B0FD00E943EB /* MDEndButton */ = {
+			isa = PBXGroup;
+			children = (
+				76EC4B4D2018B0FD00E943EB /* LPEndButton.h */,
+				76EC4B4E2018B0FD00E943EB /* LPEndButton.m */,
+			);
+			path = MDEndButton;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -149,6 +162,7 @@
 				76EC4B382018B0E600E943EB /* ViewController.m in Sources */,
 				76EC4B462018B0E600E943EB /* main.m in Sources */,
 				76EC4B352018B0E600E943EB /* AppDelegate.m in Sources */,
+				76EC4B4F2018B0FD00E943EB /* LPEndButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
